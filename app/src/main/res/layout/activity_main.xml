@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/macAddressField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter MAC Address"/>
+
+    <Button
+        android:id="@+id/commandButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn on"/>
+
+    <Button
+        android:id="@+id/commandButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn off"/>
+
+    <Button
+        android:id="@+id/commandButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Command 3"/>
+</LinearLayout>
